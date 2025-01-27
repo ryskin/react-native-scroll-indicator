@@ -7,12 +7,12 @@ import {
   FlatList,
   ViewStyle,
   FlatListProps,
+  ScrollView,
   ScrollViewProps,
   LayoutChangeEvent,
   NativeSyntheticEvent,
   NativeScrollEvent,
 } from 'react-native';
-import { ScrollView } from 'react-native-gesture-handler';
 import { Indicator } from './Indicator';
 import { getLocStyle } from './functions';
 
